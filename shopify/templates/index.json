@@ -185,6 +185,62 @@
       "settings": {
         "headline": ""
       }
+    },
+    "16350037227cea23ee": {
+      "type": "section-imgtxtblock-row",
+      "blocks": {
+        "16350037227cea23ee-0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "16350037227cea23ee-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "16350037227cea23ee-2": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16350037227cea23ee-0",
+        "16350037227cea23ee-1",
+        "16350037227cea23ee-2"
+      ],
+      "settings": {
+        "headline": "Our store"
+      }
+    },
+    "16350037308061e327": {
+      "type": "section-iconblock-row",
+      "blocks": {
+        "16350037308061e327-0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "16350037308061e327-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "16350037308061e327-2": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16350037308061e327-0",
+        "16350037308061e327-1",
+        "16350037308061e327-2"
+      ],
+      "settings": {
+        "headline": "Our store"
+      }
     }
   },
   "order": [
@@ -196,6 +252,8 @@
     "163499625306dca824",
     "section-quotes",
     "section-newsletter",
-    "1634996157c269d319"
+    "1634996157c269d319",
+    "16350037227cea23ee",
+    "16350037308061e327"
   ]
 }

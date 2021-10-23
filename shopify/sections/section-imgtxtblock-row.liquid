@@ -1,0 +1,75 @@
+<div class="container mb-12 md:mb-24">
+  {% if section.settings.headline %}
+    <div class="text-2xl lg:text-3xl font-bold text-center mb-6 md:mb-12">
+      {{ section.settings.headline }}
+    </div>
+  {% endif %}
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for block in section.blocks %}
+      {% render 'section-imgtxtblock',
+        class: 'h-96'
+        image: block.settings.image
+      %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ImgTextBlock Row",
+  "class": "shopify-section-vue",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "t:common.headline",
+      "default": "Our store"
+    },
+  ],
+  "blocks": [
+    {
+      "type": "imageWithTextAndLink",
+      "name": "Image w/Text Link",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:common.image",
+          "default": "Add customer reviews and testimonials to showcase your store’s happy customers."
+        },
+        {
+            "type": "url",
+            "id": "button-url",
+            "label": "Link ",
+            "default": "https://google.com"
+          }, {
+
+            "type": "text",
+            "id": "text",
+            "label": "Text",
+            "default": "Text"
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+        "name": "ImgTextBlock Row",
+      "category": "Images",
+      "blocks": [
+        {
+          "type": "imageWithTextAndLink"
+        },
+        {
+          "type": "imageWithTextAndLink"
+        },
+        {
+          "type": "imageWithTextAndLink"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
