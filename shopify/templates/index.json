@@ -3,14 +3,41 @@
     "section-hero": {
       "type": "section-hero",
       "settings": {
-        "headline": "Headline",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque.",
+        "image": "shopify:\/\/shop_images\/Homepage-Banner-Carousel.jpg",
+        "headline": "",
+        "text": "Experience Entertainment in a Whole New Light",
         "button-url": "\/",
-        "button-text": "Button"
+        "button-text": ""
+      }
+    },
+    "16349963668ec87d5b": {
+      "type": "rich-text",
+      "blocks": {
+        "16349963668ec87d5b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT SENGLED, SMART LIGHTING EXPERTS",
+            "heading_size": "h1"
+          }
+        },
+        "74fff726-55da-4299-864e-83d804e3e617": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16349963668ec87d5b-0",
+        "74fff726-55da-4299-864e-83d804e3e617"
+      ],
+      "settings": {
+        "full_width": false
       }
     },
     "section-collection": {
       "type": "section-collection",
+      "disabled": true,
       "settings": {
         "headline": "Selected products",
         "collection_featured": "",
@@ -19,6 +46,7 @@
     },
     "section-banner": {
       "type": "section-banner",
+      "disabled": true,
       "settings": {
         "headline": "Headline",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque.",
@@ -32,16 +60,19 @@
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.13_AM.png"
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.21_AM.png"
           }
         },
         "image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.27_AM.png"
           }
         }
       },
@@ -51,7 +82,35 @@
         "image-3"
       ],
       "settings": {
-        "headline": "Our store"
+        "headline": "Why Smart Lighting"
+      }
+    },
+    "163499625306dca824": {
+      "type": "section-image-row",
+      "blocks": {
+        "163499625306dca824-0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "163499625306dca824-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "163499625306dca824-2": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163499625306dca824-0",
+        "163499625306dca824-1",
+        "163499625306dca824-2"
+      ],
+      "settings": {
+        "headline": "3 WAYS TO CONNECT"
       }
     },
     "section-quotes": {
@@ -60,21 +119,21 @@
         "quote-1": {
           "type": "quote",
           "settings": {
-            "quote-text": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
             "quote-author": "Author's name"
           }
         },
         "quote-2": {
           "type": "quote",
           "settings": {
-            "quote-text": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
             "quote-author": "Author's name"
           }
         },
         "quote-3": {
           "type": "quote",
           "settings": {
-            "quote-text": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
             "quote-author": "Author's name"
           }
         }
@@ -85,23 +144,58 @@
         "quote-3"
       ],
       "settings": {
-        "headline": "What others say about us"
+        "headline": ""
       }
     },
     "section-newsletter": {
       "type": "section-newsletter",
+      "disabled": true,
       "settings": {
         "headline": "Our newsletter",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque."
+      }
+    },
+    "1634996157c269d319": {
+      "type": "section-image-row",
+      "blocks": {
+        "1634996157c269d319-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.37.56_AM.png"
+          }
+        },
+        "1634996157c269d319-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.04_AM.png"
+          }
+        },
+        "1634996157c269d319-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.13_AM.png"
+          }
+        }
+      },
+      "block_order": [
+        "1634996157c269d319-0",
+        "1634996157c269d319-1",
+        "1634996157c269d319-2"
+      ],
+      "settings": {
+        "headline": ""
       }
     }
   },
   "order": [
     "section-hero",
+    "16349963668ec87d5b",
     "section-collection",
     "section-banner",
     "section-image-row",
+    "163499625306dca824",
     "section-quotes",
-    "section-newsletter"
+    "section-newsletter",
+    "1634996157c269d319"
   ]
 }
