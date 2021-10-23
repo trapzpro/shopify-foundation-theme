@@ -54,65 +54,6 @@
         "button-text": "Button"
       }
     },
-    "section-image-row": {
-      "type": "section-image-row",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.13_AM.png"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.21_AM.png"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.33.27_AM.png"
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2",
-        "image-3"
-      ],
-      "settings": {
-        "headline": "Why Smart Lighting"
-      }
-    },
-    "163499625306dca824": {
-      "type": "section-image-row",
-      "blocks": {
-        "163499625306dca824-0": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "163499625306dca824-1": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "163499625306dca824-2": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "163499625306dca824-0",
-        "163499625306dca824-1",
-        "163499625306dca824-2"
-      ],
-      "settings": {
-        "headline": "3 WAYS TO CONNECT"
-      }
-    },
     "section-quotes": {
       "type": "section-quotes",
       "blocks": {
@@ -189,29 +130,38 @@
     "16350037227cea23ee": {
       "type": "section-imgtxtblock-row",
       "blocks": {
-        "16350037227cea23ee-0": {
-          "type": "image",
+        "f7996f89-3a4d-4511-8a89-297c501bfe2d": {
+          "type": "imagewtext",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hue_gradient_lightstrip.jpg",
+            "text": "Entertainment",
+            "button-url": "shopify:\/\/collections\/somecolection"
           }
         },
-        "16350037227cea23ee-1": {
-          "type": "image",
+        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d": {
+          "type": "imagewtext",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.50.08_PM.png",
+            "text": "Convenience",
+            "button-url": "shopify:\/\/collections"
           }
         },
-        "16350037227cea23ee-2": {
-          "type": "image",
+        "6845d877-a5d6-4e46-8068-3d818aee809f": {
+          "type": "imagewtext",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.52.03_PM.png",
+            "text": "Safety & Security",
+            "button-url": ""
           }
         }
       },
       "block_order": [
-        "16350037227cea23ee-0",
-        "16350037227cea23ee-1",
-        "16350037227cea23ee-2"
+        "f7996f89-3a4d-4511-8a89-297c501bfe2d",
+        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d",
+        "6845d877-a5d6-4e46-8068-3d818aee809f"
       ],
       "settings": {
-        "headline": "Our store"
+        "headline": "Why Smart Lighting"
       }
     },
     "16350037308061e327": {
@@ -239,7 +189,7 @@
         "16350037308061e327-2"
       ],
       "settings": {
-        "headline": "Our store"
+        "headline": "3 Ways To Connect"
       }
     }
   },
@@ -248,8 +198,6 @@
     "16349963668ec87d5b",
     "section-collection",
     "section-banner",
-    "section-image-row",
-    "163499625306dca824",
     "section-quotes",
     "section-newsletter",
     "1634996157c269d319",

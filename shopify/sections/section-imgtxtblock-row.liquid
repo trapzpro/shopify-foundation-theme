@@ -1,6 +1,6 @@
 <div class="container mb-12 md:mb-24">
   {% if section.settings.headline %}
-    <div class="text-2xl lg:text-3xl font-bold text-center mb-6 md:mb-12">
+    <div class="text-2xl lg:text-3xl font-bold text-center mb-6 md:mb-12 uppercase">
       {{ section.settings.headline }}
     </div>
   {% endif %}
@@ -10,6 +10,8 @@
       {% render 'section-imgtxtblock',
         class: 'h-96'
         image: block.settings.image
+        text: block.settings.text
+        url: block.settings.button-url
       %}
     {% endfor %}
   </div>
@@ -25,31 +27,27 @@
       "id": "headline",
       "label": "t:common.headline",
       "default": "Our store"
-    },
+    }
   ],
   "blocks": [
     {
-      "type": "imageWithTextAndLink",
-      "name": "Image w/Text Link",
+      "type": "imagewtext",
+      "name": "t:common.image",
       "limit": 3,
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:common.image",
-          "default": "Add customer reviews and testimonials to showcase your store’s happy customers."
-        },
-        {
-            "type": "url",
-            "id": "button-url",
-            "label": "Link ",
-            "default": "https://google.com"
-          }, {
-
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:common.image"
+          },
+          {
             "type": "text",
             "id": "text",
-            "label": "Text",
-            "default": "Text"
+            "label": "t:common.text"
+          },{
+            "type": "url",
+            "id": "button-url",
+            "label": "t:common.button.url"
           }
       ]
     }
@@ -60,13 +58,13 @@
       "category": "Images",
       "blocks": [
         {
-          "type": "imageWithTextAndLink"
+          "type": "imagewtext"
         },
         {
-          "type": "imageWithTextAndLink"
+          "type": "imagewtext"
         },
         {
-          "type": "imageWithTextAndLink"
+          "type": "imagewtext"
         }
       ]
     }
