@@ -54,77 +54,12 @@
         "button-text": "Button"
       }
     },
-    "section-quotes": {
-      "type": "section-quotes",
-      "blocks": {
-        "quote-1": {
-          "type": "quote",
-          "settings": {
-            "quote-text": "My Sengled Light Strips have changed the way we have parties",
-            "quote-author": "Author's name"
-          }
-        },
-        "quote-2": {
-          "type": "quote",
-          "settings": {
-            "quote-text": "My Sengled Light Strips have changed the way we have parties",
-            "quote-author": "Author's name"
-          }
-        },
-        "quote-3": {
-          "type": "quote",
-          "settings": {
-            "quote-text": "My Sengled Light Strips have changed the way we have parties",
-            "quote-author": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "quote-1",
-        "quote-2",
-        "quote-3"
-      ],
-      "settings": {
-        "headline": ""
-      }
-    },
     "section-newsletter": {
       "type": "section-newsletter",
       "disabled": true,
       "settings": {
         "headline": "Our newsletter",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque."
-      }
-    },
-    "1634996157c269d319": {
-      "type": "section-image-row",
-      "blocks": {
-        "1634996157c269d319-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.37.56_AM.png"
-          }
-        },
-        "1634996157c269d319-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.04_AM.png"
-          }
-        },
-        "1634996157c269d319-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.13_AM.png"
-          }
-        }
-      },
-      "block_order": [
-        "1634996157c269d319-0",
-        "1634996157c269d319-1",
-        "1634996157c269d319-2"
-      ],
-      "settings": {
-        "headline": ""
       }
     },
     "16350037227cea23ee": {
@@ -141,7 +76,7 @@
         "2ff5fa81-6908-4a78-9da7-6ccf5493c59d": {
           "type": "imagewtext",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.50.08_PM.png",
+            "image": "shopify:\/\/shop_images\/working-at-night.jpg",
             "text": "Convenience",
             "button-url": "shopify:\/\/collections"
           }
@@ -206,6 +141,77 @@
       "settings": {
         "headline": "3 Ways To Connect"
       }
+    },
+    "section-quotes": {
+      "type": "section-quotes",
+      "blocks": {
+        "quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
+            "quote-author": "Author's name"
+          }
+        },
+        "quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
+            "quote-author": "Author's name"
+          }
+        },
+        "quote-3": {
+          "type": "quote",
+          "settings": {
+            "quote-text": "My Sengled Light Strips have changed the way we have parties",
+            "quote-author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "quote-1",
+        "quote-2",
+        "quote-3"
+      ],
+      "settings": {
+        "headline": ""
+      }
+    },
+    "1635037006a4052b7e": {
+      "type": "section-image-text-top-row",
+      "blocks": {
+        "1635037006a4052b7e-0": {
+          "type": "image-text-top",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.50.08_PM.png",
+            "text": "Explore Bulbs",
+            "button-url": "#"
+          }
+        },
+        "1635037006a4052b7e-1": {
+          "type": "image-text-top",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.49.46_PM.png",
+            "text": "Explore Lightstrips",
+            "button-url": "#"
+          }
+        },
+        "1635037006a4052b7e-2": {
+          "type": "image-text-top",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.00.44_PM.png",
+            "text": "Explore Accessories",
+            "button-url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1635037006a4052b7e-0",
+        "1635037006a4052b7e-1",
+        "1635037006a4052b7e-2"
+      ],
+      "settings": {
+        "headline": "Our store"
+      }
     }
   },
   "order": [
@@ -213,10 +219,10 @@
     "16349963668ec87d5b",
     "section-collection",
     "section-banner",
-    "section-quotes",
     "section-newsletter",
-    "1634996157c269d319",
     "16350037227cea23ee",
-    "16350037308061e327"
+    "16350037308061e327",
+    "section-quotes",
+    "1635037006a4052b7e"
   ]
 }
