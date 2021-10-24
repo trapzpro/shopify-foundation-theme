@@ -167,26 +167,41 @@
     "16350037308061e327": {
       "type": "section-iconblock-row",
       "blocks": {
-        "16350037308061e327-0": {
-          "type": "image",
+        "e1f3c455-06f3-4858-844b-45cefb011a1c": {
+          "type": "iconblock",
           "settings": {
+            "twcolor": "blue",
+            "text1": "WIFI",
+            "text2": "great for",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": "#"
           }
         },
-        "16350037308061e327-1": {
-          "type": "image",
+        "de9a844d-a8f2-43af-b1ee-28fc9e5ef4a7": {
+          "type": "iconblock",
           "settings": {
+            "twcolor": "blue",
+            "text1": "Bluetooth",
+            "text2": "other stuff here",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": ""
           }
         },
-        "16350037308061e327-2": {
-          "type": "image",
+        "3fb7fbfc-a218-4889-b510-cfcedb81f4f2": {
+          "type": "iconblock",
           "settings": {
+            "twcolor": "blue",
+            "text1": "Smart Hub",
+            "text2": "more notes",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": ""
           }
         }
       },
       "block_order": [
-        "16350037308061e327-0",
-        "16350037308061e327-1",
-        "16350037308061e327-2"
+        "e1f3c455-06f3-4858-844b-45cefb011a1c",
+        "de9a844d-a8f2-43af-b1ee-28fc9e5ef4a7",
+        "3fb7fbfc-a218-4889-b510-cfcedb81f4f2"
       ],
       "settings": {
         "headline": "3 Ways To Connect"

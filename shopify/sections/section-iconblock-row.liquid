@@ -9,7 +9,10 @@
     {% for block in section.blocks %}
       {% render 'section-iconblock',
         class: 'h-96'
-
+        svg: block.settings.svg
+        text1: block.settings.text1
+        text2: block.settings.text2
+        twcolor: 'blue'
       %}
     {% endfor %}
   </div>
@@ -29,31 +32,64 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "t:common.image",
+      "type": "iconblock",
+      "name": "Icon Block",
       "limit": 3,
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:common.image"
-        }
+          "type": "select",
+          "id": "twcolor",
+          "label": "Background Color",
+          "options": [
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "green",
+              "label": "Green"
+            },
+            {
+              "value": "yellow",
+              "label": "Yellow"
+            }
+          ],
+          "default": "blue"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Line 1"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Line 2"
+        },{
+          "type": "html",
+          "id": "svg",
+          "label": "SVG"
+        },{
+            "type": "url",
+            "id": "button-url",
+            "label": "t:common.button.url"
+          }
       ]
     }
   ],
   "presets": [
     {
-        "name": "Iconblock Row",
+        "name": "Icon Block Row",
       "category": "Images",
       "blocks": [
         {
-          "type": "image"
+          "type": "iconblock"
         },
         {
-          "type": "image"
+          "type": "iconblock"
         },
         {
-          "type": "image"
+          "type": "iconblock"
         }
       ]
     }
