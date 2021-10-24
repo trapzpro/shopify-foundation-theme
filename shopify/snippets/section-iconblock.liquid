@@ -1,4 +1,10 @@
-<div class="w-full h-full p-4 text-center text-white bg-blue-500 rounded-lg " {{ block.shopify_attributes }} data-nothin="some" >
+<div class="w-full h-full p-4 text-center text-white 
+ 
+  {% if twcolor == "blue" %} bg-blue-500 {% endif  %} 
+  {% if twcolor == "green" %} bg-green-500 {% endif  %} 
+  {% if twcolor == "yellow" %} bg-yellow-500 {% endif  %} 
+  
+  rounded-lg " {{ block.shopify_attributes }} data-nothin="some" >
   <div class="flex justify-items-center">
     {{ svg }}
   </div>
