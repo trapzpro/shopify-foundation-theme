@@ -1,0 +1,31 @@
+<div class="items-center container rounded-lg overflow-hidden ">
+  <div class="text-center w-full bg-black text-white h-14 pt-3">
+    <span class="align-middle">{{ text }}</span>
+  </div>
+  {% if image %}
+    <img
+      sizes="
+        (min-width: 1536px) 500px,
+        (min-width: 1280px) 400px,
+        (min-width: 1024px) 350px,
+        (min-width: 768px) 350px,
+        (min-width: 640px) 300px,
+        500px
+      "
+      srcset="
+        {{ image | img_url: '300x' }} 300w,
+        {{ image | img_url: '350x' }} 350w,
+        {{ image | img_url: '400x' }} 400w,
+        {{ image | img_url: '500x' }} 500w
+      "
+      src="{{ image | img_url: '500x' }}"
+      src-placeholder="{{  image | img_url: '50x' }}"
+      alt="{{ image.alt }}"
+      loading="lazy"
+      class="w-full h-full object-cover object-center"
+    >
+  {% else %}
+    {{ 'image' | placeholder_svg_tag: 'object-cover h-48 w-full' }}
+  {% endif %}
+</div>
+

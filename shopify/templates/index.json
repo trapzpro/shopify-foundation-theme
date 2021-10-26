@@ -54,6 +54,94 @@
         "button-text": "Button"
       }
     },
+    "section-newsletter": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "settings": {
+        "headline": "Our newsletter",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque."
+      }
+    },
+    "16350037227cea23ee": {
+      "type": "section-imgtxtblock-row",
+      "blocks": {
+        "f7996f89-3a4d-4511-8a89-297c501bfe2d": {
+          "type": "imagewtext",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hue_gradient_lightstrip.jpg",
+            "text": "Entertainment",
+            "button-url": "shopify:\/\/collections\/somecolection"
+          }
+        },
+        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d": {
+          "type": "imagewtext",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/working-at-night.jpg",
+            "text": "Convenience",
+            "button-url": "shopify:\/\/collections"
+          }
+        },
+        "6845d877-a5d6-4e46-8068-3d818aee809f": {
+          "type": "imagewtext",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.52.03_PM.png",
+            "text": "Safety & Security",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "f7996f89-3a4d-4511-8a89-297c501bfe2d",
+        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d",
+        "6845d877-a5d6-4e46-8068-3d818aee809f"
+      ],
+      "settings": {
+        "headline": "Why Smart Lighting"
+      }
+    },
+    "16350037308061e327": {
+      "type": "section-iconblock-row",
+      "blocks": {
+        "e1f3c455-06f3-4858-844b-45cefb011a1c": {
+          "type": "iconblock",
+          "settings": {
+            "twcolor": "green",
+            "text1": "WIFI",
+            "text2": "great for",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": "#"
+          }
+        },
+        "de9a844d-a8f2-43af-b1ee-28fc9e5ef4a7": {
+          "type": "iconblock",
+          "settings": {
+            "twcolor": "blue",
+            "text1": "Bluetooth",
+            "text2": "other stuff here",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": ""
+          }
+        },
+        "3fb7fbfc-a218-4889-b510-cfcedb81f4f2": {
+          "type": "iconblock",
+          "settings": {
+            "twcolor": "yellow",
+            "text1": "Smart Hub",
+            "text2": "more notes",
+            "svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"h-24 w-24 flex-auto\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0\"><\/path>\n    <\/svg>",
+            "button-url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1f3c455-06f3-4858-844b-45cefb011a1c",
+        "de9a844d-a8f2-43af-b1ee-28fc9e5ef4a7",
+        "3fb7fbfc-a218-4889-b510-cfcedb81f4f2"
+      ],
+      "settings": {
+        "headline": "3 Ways To Connect"
+      }
+    },
     "section-quotes": {
       "type": "section-quotes",
       "blocks": {
@@ -88,108 +176,41 @@
         "headline": ""
       }
     },
-    "section-newsletter": {
-      "type": "section-newsletter",
-      "disabled": true,
-      "settings": {
-        "headline": "Our newsletter",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque."
-      }
-    },
-    "1634996157c269d319": {
-      "type": "section-image-row",
+    "1635037006a4052b7e": {
+      "type": "section-image-text-top-row",
       "blocks": {
-        "1634996157c269d319-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.37.56_AM.png"
-          }
-        },
-        "1634996157c269d319-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.04_AM.png"
-          }
-        },
-        "1634996157c269d319-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.38.13_AM.png"
-          }
-        }
-      },
-      "block_order": [
-        "1634996157c269d319-0",
-        "1634996157c269d319-1",
-        "1634996157c269d319-2"
-      ],
-      "settings": {
-        "headline": ""
-      }
-    },
-    "16350037227cea23ee": {
-      "type": "section-imgtxtblock-row",
-      "blocks": {
-        "f7996f89-3a4d-4511-8a89-297c501bfe2d": {
-          "type": "imagewtext",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hue_gradient_lightstrip.jpg",
-            "text": "Entertainment",
-            "button-url": "shopify:\/\/collections\/somecolection"
-          }
-        },
-        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d": {
-          "type": "imagewtext",
+        "1635037006a4052b7e-0": {
+          "type": "image-text-top",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.50.08_PM.png",
-            "text": "Convenience",
-            "button-url": "shopify:\/\/collections"
+            "text": "Explore Bulbs",
+            "button-url": "#"
           }
         },
-        "6845d877-a5d6-4e46-8068-3d818aee809f": {
-          "type": "imagewtext",
+        "1635037006a4052b7e-1": {
+          "type": "image-text-top",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.52.03_PM.png",
-            "text": "Safety & Security",
-            "button-url": ""
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_1.49.46_PM.png",
+            "text": "Explore Lightstrips",
+            "button-url": "#"
+          }
+        },
+        "1635037006a4052b7e-2": {
+          "type": "image-text-top",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-23_at_9.00.44_PM.png",
+            "text": "Explore Accessories",
+            "button-url": "#"
           }
         }
       },
       "block_order": [
-        "f7996f89-3a4d-4511-8a89-297c501bfe2d",
-        "2ff5fa81-6908-4a78-9da7-6ccf5493c59d",
-        "6845d877-a5d6-4e46-8068-3d818aee809f"
+        "1635037006a4052b7e-0",
+        "1635037006a4052b7e-1",
+        "1635037006a4052b7e-2"
       ],
       "settings": {
-        "headline": "Why Smart Lighting"
-      }
-    },
-    "16350037308061e327": {
-      "type": "section-iconblock-row",
-      "blocks": {
-        "16350037308061e327-0": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "16350037308061e327-1": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "16350037308061e327-2": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "16350037308061e327-0",
-        "16350037308061e327-1",
-        "16350037308061e327-2"
-      ],
-      "settings": {
-        "headline": "3 Ways To Connect"
+        "headline": "Our store"
       }
     }
   },
@@ -198,10 +219,10 @@
     "16349963668ec87d5b",
     "section-collection",
     "section-banner",
-    "section-quotes",
     "section-newsletter",
-    "1634996157c269d319",
     "16350037227cea23ee",
-    "16350037308061e327"
+    "16350037308061e327",
+    "section-quotes",
+    "1635037006a4052b7e"
   ]
 }

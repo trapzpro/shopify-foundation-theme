@@ -1,0 +1,73 @@
+<div class="container mb-12 md:mb-24">
+  {% if section.settings.headline %}
+    <div class="text-2xl lg:text-3xl font-bold text-center mb-6 md:mb-12">
+      {{ section.settings.headline }}
+    </div>
+  {% endif %}
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for block in section.blocks %}
+      {% render 'section-image-text-top',
+        class: 'h-96'
+        image: block.settings.image
+        text: block.settings.text
+        url: block.settings.button-url
+      %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Row: Img + Text Top",
+  "class": "shopify-section-vue",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "t:common.headline",
+      "default": "Our store"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image-text-top",
+      "name": "t:common.image",
+      "limit": 3,
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:common.image"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "t:common.text"
+          },{
+            "type": "url",
+            "id": "button-url",
+            "label": "t:common.button.url"
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-row.name",
+      "category": "Images",
+      "blocks": [
+        {
+          "type": "image-text-top"
+        },
+        {
+          "type": "image-text-top"
+        },
+        {
+          "type": "image-text-top"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

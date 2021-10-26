@@ -1,5 +1,7 @@
 {
   "current": {
+    "checkout_logo_image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-25_at_8.35.30_AM.png",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "sections": {
       "layout-announcement-bar": {
         "type": "layout-announcement-bar",
