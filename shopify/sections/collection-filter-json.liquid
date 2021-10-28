@@ -1,0 +1,23 @@
+{% layout none %}
+
+{%- assign products = collection.products -%}
+{
+
+    "products": [
+        {%- for product in products -%}
+        {
+                "id": {{ product.id | json }},
+                "title": {{ product.title | json }},
+                "handle": {{ product.handle | json }},
+                "metafields": {
+                    {% if product.metafields.spec.environment_damp_rating %}
+                        "environment_damp_rating": {{ product.metafields.spec.environment_damp_rating | json }},
+                    {% endif %}
+                    {% if product.metafields.spec.environment_operating_humidity %}
+                        "environment_operating_humidity": {{ product.metafields.spec.environment_operating_humidity | json }},
+                    {% endif %}
+                }
+            },
+        {% endfor %}
+        ]
+    }

@@ -1,7 +1,7 @@
 {% assign current_variant = product.selected_or_first_available_variant %}
 {% assign featured_image = current_variant.featured_image | default: product.featured_image %}
-
-<div class="container max-w-screen-xl grid md:grid-cols-2 gap-8">
+{% assign metafields = product.metafields.specs %}
+<div class="container max-w-screen-xl grid md:grid-cols-2 gap-8">---{{ metafields }}---
   <renderless-product-gallery v-slot="{ initialRender, currentImage, switchImage }">
     <div>
       <div>

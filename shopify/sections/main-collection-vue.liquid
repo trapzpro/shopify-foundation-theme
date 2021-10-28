@@ -5,9 +5,38 @@
 
   {% if collection.description != blank %}
     <p class="max-w-screen-sm mx-auto md:-mt-6 mb-6 md:mb-12">
-      {{ collection }}
+      {{ collection.description }}
     </p>
   {% endif %}
+
+
+  <renderless-colletion-manager   v-slot="{ loadMetafields }" :products="{{ collection.products  | json | replace: '"', "'" }}">Vue found {{ products.length }} <span @click="loadMetafields"> click here </span> products.</renderless-colletion-manager>
+
+  {% if   collection.image != blank %}
+    <div>
+        <a href="{{ collection.url }}">
+          <img
+            sizes="
+              (min-width: 768px) 450px,
+              400px
+            "
+            srcset="
+              {{ collection.image | img_url: '275x' }} 275w,
+              {{ collection.image | img_url: '450x' }} 450w
+            "
+            src="{{ collection.image | img_url: '400x' }}"
+            src-placeholder="{{ collection.image | img_url: '50x' }}"
+            alt="{{ collection.image.alt | escape }}"
+            loading="lazy"
+            class="w-full h-32 sm:h-48 lg:h-64 xl:h-80 object-cover object-center"
+          >
+        </a>
+    </div>
+  {% endif %}
+
+
+
+
 
   <counter v-bind:products="
     [

@@ -116,3 +116,5 @@ if (Shopify.designMode) {
     subtree: true
   })
 }
+
+const axios = require('axios').default;
