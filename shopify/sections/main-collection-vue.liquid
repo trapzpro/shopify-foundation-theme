@@ -5,10 +5,20 @@
 
   {% if collection.description != blank %}
     <p class="max-w-screen-sm mx-auto md:-mt-6 mb-6 md:mb-12">
-      {{ collection.description }}
+      {{ collection }}
     </p>
   {% endif %}
 
+  <counter v-bind:products="
+    [
+        {% for product in collection.products %}
+        {
+            handle: '{{ product.handle}}'
+         },
+        {% endfor %}
+    ]
+
+    "></counter>
   {% paginate collection.products by 16 %}
     {% if collection and collection.products %}
       {% assign amount = collection.all_products_count %}
