@@ -22,6 +22,7 @@
     "fix:shopify": "cd shopify && shopify theme check -a"
   },
   "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.2.0",
     "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.5",
     "axios": "^0.24.0",
