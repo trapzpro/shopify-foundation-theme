@@ -212,6 +212,28 @@
       "settings": {
         "headline": "Our store"
       }
+    },
+    "16354637927c5ee72b": {
+      "type": "section-slider",
+      "blocks": {
+        "16354637927c5ee72b-0": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "16354637927c5ee72b-1": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16354637927c5ee72b-0",
+        "16354637927c5ee72b-1"
+      ],
+      "settings": {
+        "title": "Slideshow"
+      }
     }
   },
   "order": [
@@ -223,6 +245,7 @@
     "16350037227cea23ee",
     "16350037308061e327",
     "section-quotes",
-    "1635037006a4052b7e"
+    "1635037006a4052b7e",
+    "16354637927c5ee72b"
   ]
 }

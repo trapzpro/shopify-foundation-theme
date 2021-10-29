@@ -1,0 +1,58 @@
+\
+  <renderless-slideshow   v-slot="{ nextSlide, previousSlide }">
+    <div class="relative">
+        <div class="absolute inset-0 w-screen h-screen bg-pink-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-0 slide">Hello</div>
+        <div class="absolute inset-0 w-screen h-screen bg-purple-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">There</div>
+        <div class="absolute inset-0 w-screen h-screen bg-blue-500 text-white flex items-center justify-center text-5xl transition-all ease-in-out duration-1000 transform translate-x-full slide">Booya!</div>
+        <div class="fixed bottom-0 right-0 bg-white w-16 h-16 flex items-center justify-center text-black"  @click="previousSlide">&#x276F;</div>
+        <div class="fixed bottom-0 left-0 bg-white w-16 h-16 mr-16 border-r border-gray-400 flex items-center justify-center text-black"  @click=" nextSlide">&#x276E;</div>
+    </div>
+  </renderless-slideshow>
+
+    
+  
+  {% schema %}
+  {
+    "name": "Slideshow",
+    "tag": "section",
+    "class": "slideshow",
+    "max_blocks": 5,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Slideshow"
+      }
+    ],
+    "blocks": [
+       {
+         "name": "Slide",
+         "type": "slide",
+         "settings": [
+           {
+             "type": "image_picker",
+             "id": "image",
+             "label": "Image"
+           }
+         ]
+       }
+     ],
+    "presets": [
+       {
+         "name": "Slideshow",
+         "settings": {
+            "title": "Slideshow"
+          },
+         "blocks": [
+           {
+             "type": "slide"
+           },
+           {
+             "type": "slide"
+           }
+         ]
+       }
+     ]
+  }
+  {% endschema %}
+  
